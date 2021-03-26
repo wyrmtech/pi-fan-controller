@@ -12,10 +12,13 @@ a certain threshold.
 
 fancontrol.py modified from the original to control the fan on pin12 (GPIO 18)
 
-To use this code, 
+# To use this code
+
 git clone https://github.com/wyrmtech/pi-fan-controller.git
 
-If you don't already have git installed, you'll need to install git first using sudo apt-get install git.
+# If you don't already have git installed, you'll need to install git first using 
+
+sudo apt-get install git
 
 I would suggest that you run the following first to make sure everything is up to date:
 
@@ -23,7 +26,7 @@ sudo apt update
 
 sudo apt full-upgrade
 
-Install the requirements:
+# Install the requirements:
 
 # If pip is not already installed run:
 sudo apt install python3-pip
@@ -31,7 +34,7 @@ sudo apt install python3-pip
 # Install requirements globally
 sudo pip3 install -r pi-fan-controller/requirements.txt
 
-Run the install script:
+# Run the install script:
 
 ./pi-fan-controller/script/install
 
