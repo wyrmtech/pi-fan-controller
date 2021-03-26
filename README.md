@@ -18,7 +18,9 @@ git clone https://github.com/wyrmtech/pi-fan-controller.git
 If you don't already have git installed, you'll need to install git first using sudo apt-get install git.
 
 I would suggest that you run the following first to make sure everything is up to date:
+
 sudo apt update
+
 sudo apt full-upgrade
 
 Install the requirements:
