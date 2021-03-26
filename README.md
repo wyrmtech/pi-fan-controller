@@ -8,5 +8,7 @@ This repository provides scripts that can be run on the Raspberry Pi that will
 monitor the core temperature and start the fan when the temperature reaches
 a certain threshold.
 
+fancontrol.py modified to control the fan on pin12 (GPIO 18)
+
 To use this code, you'll have to install a fan. The full instructions can be
 found on our guide: [Control Your Raspberry Pi Fan (and Temperature) with Python](https://howchoo.com/g/ote2mjkzzta/control-raspberry-pi-fan-temperature-python).
