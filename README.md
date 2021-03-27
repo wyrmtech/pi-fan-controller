@@ -38,6 +38,8 @@ git clone https://github.com/wyrmtech/pi-fan-controller.git
 
 # If pip is not already installed run:
 sudo apt install python3-pip
+or if getting stuck reading the repository
+sudo apt-get -o Acquire::ForceIPv4=true install python3-pip
 
 # Install requirements globally
 sudo pip3 install -r pi-fan-controller/requirements.txt
