@@ -14,17 +14,19 @@ fancontrol.py modified from the original to control the fan on pin12 (GPIO 18)
 
 # To use this code
 
-git clone https://github.com/wyrmtech/pi-fan-controller.git
-
-# If you don't already have git installed, you'll need to install git first using 
-
-sudo apt-get install git
-
 I would suggest that you run the following first to make sure everything is up to date:
 
 sudo apt update
 
 sudo apt full-upgrade
+
+# If you don't already have git installed, you'll need to install git first using 
+
+sudo apt-get install git
+
+# Clone the code
+
+git clone https://github.com/wyrmtech/pi-fan-controller.git
 
 # Install the requirements:
 
