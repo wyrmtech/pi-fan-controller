@@ -23,6 +23,7 @@ sudo apt full-upgrade
 N.B, Updates were getting stuck connecting to one of the repositories, if that happens try this:
 
 apt-get -o Acquire::ForceIPv4=true update
+
 apt-get -o Acquire::ForceIPv4=true -y dist-upgrade
 
 # If you don't already have git installed, you'll need to install git first using 
